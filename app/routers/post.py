@@ -1,5 +1,4 @@
 from http.client import HTTPException
-from pyexpat import model
 from typing import List, Optional
 from fastapi import APIRouter
 from fastapi import status, status,HTTPException,Depends
