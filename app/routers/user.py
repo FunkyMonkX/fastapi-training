@@ -1,5 +1,4 @@
 from http.client import HTTPException
-from tkinter.font import BOLD
 from fastapi import status, status,HTTPException,Depends, APIRouter
 from .. import models, schemas, utils
 from ..database import get_db
